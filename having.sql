@@ -16,6 +16,6 @@ FROM Fines
 GROUP BY StaffID
 HAVING COUNT(*) > 1;
 
-⦁	This shows only the staff who issued more than one fine.
+⦁ This shows only the staff who issued more than one fine.
 
 The HAVING clause can contain either  a simple Boolean expression (i.e., True or False ) or use aggregate function the having condition .
