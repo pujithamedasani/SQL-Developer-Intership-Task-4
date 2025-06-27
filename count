@@ -1,0 +1,25 @@
+COUNT(*) :
+
+⦁ It counts all rows, including NULLs.
+
+Syntax:
+
+SELECT COUNT(*) FROM table;
+
+Count(column) :
+
+⦁ It Counts non-null values in a column.
+
+Syntax:
+
+SELECT COUNT(column_name) FROM table;
+
+SQL Script :
+
+-- Counts all loan records
+
+SELECT COUNT(*) FROM Loans; 
+           
+-- Counts only returned books
+
+SELECT COUNT(ReturnDate) FROM Loans;   
