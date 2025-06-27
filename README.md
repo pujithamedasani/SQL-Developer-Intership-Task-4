@@ -19,7 +19,7 @@ Use SQL aggregate functions with GROUP BY and HAVING to summarize library data.
 - `output for task4_aggregates.png`: output screenshot of task4_aggregates.sql
  
 ## Tools Used
-- MySQL Workbench / SQLiteStudio
+- Onecompiler , SQLiteStudio
 
 ## Summary of Queries
 - Count of books by status
